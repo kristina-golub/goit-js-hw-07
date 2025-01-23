@@ -26,7 +26,7 @@ const images = [
 ];
 
 const gallery = document.querySelector('.gallery');
-
+gallery.classList.add('container');
 const markup = images
   .map(
     ({ url, alt }) =>
